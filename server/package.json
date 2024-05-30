@@ -19,7 +19,7 @@
   "scripts": {
     "start": "SET NODE_ENV=production & node ./dist/server.js",
     "dev": "SET NODE_ENV=development & nodemon --exec ts-node --transpile-only ./src/server.ts",
-    "build": "tsc"
+    "build": "SET NODE_ENV=development & nodemon --exec ts-node --transpile-only ./src/server.ts"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
