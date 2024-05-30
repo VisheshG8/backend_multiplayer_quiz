@@ -7,7 +7,8 @@ const envFile =
     : "../.env.development";
 
 // Load the .env file
-dotenv.config({ path: envFile });
+// dotenv.config({ path: envFile });
+dotenv.config({});
 
 // Export environment variables
 export const MONGO_URL =

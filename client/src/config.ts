@@ -1,6 +1,7 @@
 import {API_URL, LOCAL_API_URL} from '@env';
 
-const baseUrl = determineBaseURL();
+// const baseUrl = determineBaseURL();
+const baseUrl = "http://192.168.1.7:5000"
 
 export const apiUrl = `${baseUrl}/api`;
 export const socketUrl = `${baseUrl}/socket`;
